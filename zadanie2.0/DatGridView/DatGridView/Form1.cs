@@ -148,7 +148,7 @@ namespace DatGridView
             }
             else
             {
-                newdata.Cells[2].Value = textBox2.Text;
+                newdata.Cells[2].Value = textBox3.Text;
             }
             if (value4 < min || value4 > max)
             {
@@ -156,7 +156,7 @@ namespace DatGridView
             }
             else
             {
-                newdata.Cells[3].Value = textBox2.Text;
+                newdata.Cells[3].Value = textBox4.Text;
             }
             
   
