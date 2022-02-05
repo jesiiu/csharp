@@ -1,0 +1,15 @@
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\bin\Debug\net6.0\zadanie1.exe
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\bin\Debug\net6.0\zadanie1.deps.json
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\bin\Debug\net6.0\zadanie1.runtimeconfig.json
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\bin\Debug\net6.0\zadanie1.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\bin\Debug\net6.0\ref\zadanie1.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\bin\Debug\net6.0\zadanie1.pdb
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.csproj.AssemblyReference.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.AssemblyInfoInputs.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.AssemblyInfo.cs
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.csproj.CoreCompileInputs.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\ref\zadanie1.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.pdb
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie1\zadanie1\obj\Debug\net6.0\zadanie1.genruntimeconfig.cache
