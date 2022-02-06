@@ -66,12 +66,16 @@ namespace Wielowątkowość
                         {
 
                             int a = 0 + i;
+                            //Aktualizacja ilości wykonanych permutacji w labelu
                             string text = $"{a.ToString()}/999";
                             label2.Text = text.ToString();
                             label2.Refresh();
+                            //Funkcja wypisująca permutacje w oknie programu
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:000}", Environment.NewLine));
+                            //Aktualizacja progresu progressbara
                             progressBar1.Maximum = 999;
                             progressBar1.Value = i;
+                            //uśpienie wątku na 100ms
                             Thread.Sleep(100);
                         }
                         
