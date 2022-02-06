@@ -77,6 +77,15 @@ namespace Wielowątkowość
                             progressBar1.Value = i;
                             //uśpienie wątku na 100ms
                             Thread.Sleep(100);
+                            //Wyłączenie przycisku "Generuj" w celu zablokowania możliwości włączenia więcej niż jednego wykonania funkcji na raz
+                            if (progressBar1.Value < progressBar1.Maximum)
+                            {
+                                button1.Enabled = false;
+                            }
+                            else 
+                            {
+                                button1.Enabled=true;
+                            }
                         }
                         
 
@@ -96,6 +105,14 @@ namespace Wielowątkowość
                             label2.Text = $"{i}/9999";
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:0000}", Environment.NewLine));
                             Thread.Sleep(100);
+                            if (progressBar1.Value < progressBar1.Maximum)
+                            {
+                                button1.Enabled = false;
+                            }
+                            else 
+                            {
+                                button1.Enabled=true;
+                            }
                         }
 
                         break;
@@ -113,6 +130,14 @@ namespace Wielowątkowość
                             progressBar1.Value = i;
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:00000}", Environment.NewLine));
                             Thread.Sleep(100);
+                            if (progressBar1.Value < progressBar1.Maximum)
+                            {
+                                button1.Enabled = false;
+                            }
+                            else 
+                            {
+                                button1.Enabled=true;
+                            }
                         }
                         
                         break;
@@ -130,6 +155,14 @@ namespace Wielowątkowość
                             progressBar1.Value = i;
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:000000}", Environment.NewLine));
                             Thread.Sleep(100);
+                            if (progressBar1.Value < progressBar1.Maximum)
+                            {
+                                button1.Enabled = false;
+                            }
+                            else 
+                            {
+                                button1.Enabled=true;
+                            }
                             
                         }
                         
