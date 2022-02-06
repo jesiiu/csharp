@@ -39,7 +39,7 @@ namespace Wielowątkowość
                 MessageBox.Show("Tylko cyfry w zakresie od 3 do 6");
             }
         }
-//Otwarcie nowego wątku po kliknięci buttona
+//Otwarcie nowego wątku oraz wywołanie funkcji procces(wykonującej permutacje) po kliknięciu buttona
         private void button1_Click(object sender, EventArgs e)
         {
 
