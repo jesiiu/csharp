@@ -10,8 +10,10 @@ namespace Wielowątkowość
         public Form1()
         {
             InitializeComponent();
+            //zdefiniowanie wartości dla progressbara
             progressBar1.Minimum = 0;
             progressBar1.Step = 1;
+            //element walidacji wprowadzanych danych do textboxa
             textBox1.KeyPress += new KeyPressEventHandler(textBox1_KeyPress);
 
         }
@@ -29,7 +31,7 @@ namespace Wielowątkowość
 
 
         }
-
+//Walidacja wprowadzanego znaku do textboxa, musi byc cyfrą bo inaczej wyskoczy messagebox
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if(e.Handled=!char.IsDigit(e.KeyChar))
@@ -37,7 +39,7 @@ namespace Wielowątkowość
                 MessageBox.Show("Tylko cyfry w zakresie od 3 do 6");
             }
         }
-
+//Otwarcie nowego wątku po kliknięci buttona
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -57,6 +59,7 @@ namespace Wielowątkowość
 
             switch (n)
             {
+            //Permutacje dla 3 zer
                 case 3:
                     {
                         for (int i = 0; i < 1000; i++)
@@ -75,6 +78,7 @@ namespace Wielowątkowość
 
                         break;
                     }
+                    //Permutacje dla 4 zer
                 case 4:
                     {
                         for (int i = 0; i < 10000; i++)
@@ -92,6 +96,7 @@ namespace Wielowątkowość
 
                         break;
                     }
+                    //Permutacje dla 5 zer
                 case 5:
                     {
                         for (int i = 0; i < 100000; i++)
@@ -108,6 +113,7 @@ namespace Wielowątkowość
                         
                         break;
                     }
+                    //Permutacje dla 6 zer
                 case 6:
                     {
                         for (int i = 0; i < 1000000; i++)
@@ -127,6 +133,7 @@ namespace Wielowątkowość
                     }
                 default:
                     {
+                    //Sprawdzenie czy wprowadzona liczba mieści się w założonym zakresie 3-6
                         MessageBox.Show("Zakres od 3 do 6");
                         break;
                     }
