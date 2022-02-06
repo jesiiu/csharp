@@ -6,7 +6,7 @@ namespace Wielowątkowość
 {
     public partial class Form1 : Form
     {
-    
+
         public Form1()
         {
             InitializeComponent();
@@ -18,7 +18,7 @@ namespace Wielowątkowość
 
         }
 
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -31,35 +31,35 @@ namespace Wielowątkowość
 
 
         }
-//Walidacja wprowadzanego znaku do textboxa, musi byc cyfrą bo inaczej wyskoczy messagebox
+        //Walidacja wprowadzanego znaku do textboxa, musi byc cyfrą bo inaczej wyskoczy messagebox
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.Handled=!char.IsDigit(e.KeyChar))
+            if (e.Handled = !char.IsDigit(e.KeyChar))
             {
                 MessageBox.Show("Tylko cyfry w zakresie od 3 do 6");
             }
         }
-//Otwarcie nowego wątku oraz wywołanie funkcji procces(wykonującej permutacje) po kliknięciu buttona
+        //Otwarcie nowego wątku oraz wywołanie funkcji procces(wykonującej permutacje) po kliknięciu buttona
         private void button1_Click(object sender, EventArgs e)
         {
 
             Thread thread = new Thread(new ThreadStart(process));
             thread.Start();
-            
-            
+
+
         }
 
-    
+
 
         public void process()
         {
-            
+
             string textboxvalue = textBox1.Text;
             int n = int.Parse(textboxvalue);
 
             switch (n)
             {
-            //Permutacje dla 3 zer
+                //Permutacje dla 3 zer
                 case 3:
                     {
                         for (int i = 0; i < 1000; i++)
@@ -68,10 +68,11 @@ namespace Wielowątkowość
                             int a = 0 + i;
                             //Aktualizacja ilości wykonanych permutacji w labelu
                             string text = $"{a.ToString()}/999";
-                            label2.Text = text.ToString();
+                            label2.Text =$"Permutacje: {text}";
                             label2.Refresh();
                             //Funkcja wypisująca permutacje w oknie programu
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:000}", Environment.NewLine));
+                            // richTextBox1.ScrollToCaret();
                             //Aktualizacja progresu progressbara
                             progressBar1.Maximum = 999;
                             progressBar1.Value = i;
@@ -82,105 +83,108 @@ namespace Wielowątkowość
                             {
                                 button1.Enabled = false;
                             }
-                            else 
+                            else
                             {
-                                button1.Enabled=true;
+                                button1.Enabled = true;
                             }
                         }
-                        
+
 
                         break;
                     }
-                    //Permutacje dla 4 zer
+                //Permutacje dla 4 zer
                 case 4:
                     {
                         for (int i = 0; i < 10000; i++)
                         {
                             int a = 0 + i;
                             string text = $"{a.ToString()}/9999";
-                            label2.Text = text.ToString();
+                            label2.Text = $"Permutacje: {text}";
                             label2.Refresh();
-                            progressBar1.Maximum = 10000;
+                            progressBar1.Maximum = 9999;
                             progressBar1.Value = i;
-                            label2.Text = $"{i}/9999";
+                            
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:0000}", Environment.NewLine));
+                            // richTextBox1.ScrollToCaret();
                             Thread.Sleep(100);
                             if (progressBar1.Value < progressBar1.Maximum)
                             {
                                 button1.Enabled = false;
                             }
-                            else 
+                            else
                             {
-                                button1.Enabled=true;
+                                button1.Enabled = true;
                             }
                         }
 
                         break;
                     }
-                    //Permutacje dla 5 zer
+                //Permutacje dla 5 zer
                 case 5:
                     {
                         for (int i = 0; i < 100000; i++)
                         {
                             int a = 0 + i;
                             string text = $"{a.ToString()}/99999";
-                            label2.Text = text.ToString();
+                            label2.Text = $"Permutacje: {text}";
                             label2.Refresh();
-                            progressBar1.Maximum = 100000;
+                            progressBar1.Maximum = 99999;
                             progressBar1.Value = i;
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:00000}", Environment.NewLine));
+                            // richTextBox1.ScrollToCaret();
                             Thread.Sleep(100);
                             if (progressBar1.Value < progressBar1.Maximum)
                             {
                                 button1.Enabled = false;
                             }
-                            else 
+                            else
                             {
-                                button1.Enabled=true;
+                                button1.Enabled = true;
                             }
                         }
-                        
+
                         break;
                     }
-                    //Permutacje dla 6 zer
+                //Permutacje dla 6 zer
                 case 6:
                     {
                         for (int i = 0; i < 1000000; i++)
                         {
                             int a = 0 + i;
                             string text = $"{a.ToString()}/999999";
-                            label2.Text = text.ToString();
+                            label2.Text = $"Permutacje: {text}";
                             label2.Refresh();
-                            progressBar1.Maximum = 1000000;
+                            progressBar1.Maximum = 999999;
                             progressBar1.Value = i;
                             richTextBox1.AppendText(String.Format("{0}{1}", $"{a:000000}", Environment.NewLine));
-                            Thread.Sleep(100);
+                            // richTextBox1.ScrollToCaret();
+                            
                             if (progressBar1.Value < progressBar1.Maximum)
                             {
                                 button1.Enabled = false;
                             }
-                            else 
+                            else
                             {
-                                button1.Enabled=true;
+                                button1.Enabled = true;
                             }
-                            
+
                         }
-                        
+
                         break;
                     }
                 default:
                     {
-                    //Sprawdzenie czy wprowadzona liczba mieści się w założonym zakresie 3-6
+                        //Sprawdzenie czy wprowadzona liczba mieści się w założonym zakresie 3-6
                         MessageBox.Show("Zakres od 3 do 6");
                         break;
                     }
-                    
+
             }
-            
-            
+
+
 
         }
-       
+
     }
-    
+
 }
