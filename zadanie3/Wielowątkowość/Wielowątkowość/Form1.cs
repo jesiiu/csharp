@@ -1,0 +1,142 @@
+using System.Threading;
+using System.Threading.Tasks;
+using System.Linq;
+
+namespace Wielowątkowość
+{
+    public partial class Form1 : Form
+    {
+    
+        public Form1()
+        {
+            InitializeComponent();
+            progressBar1.Minimum = 0;
+            progressBar1.Step = 1;
+            textBox1.KeyPress += new KeyPressEventHandler(textBox1_KeyPress);
+
+        }
+
+        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            CheckForIllegalCrossThreadCalls = false;
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.Handled=!char.IsDigit(e.KeyChar))
+            {
+                MessageBox.Show("Tylko cyfry w zakresie od 3 do 6");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Thread thread = new Thread(new ThreadStart(process));
+            thread.Start();
+            
+            
+        }
+
+    
+
+        public void process()
+        {
+            
+            string textboxvalue = textBox1.Text;
+            int n = int.Parse(textboxvalue);
+
+            switch (n)
+            {
+                case 3:
+                    {
+                        for (int i = 0; i < 1000; i++)
+                        {
+
+                            int a = 0 + i;
+                            string text = $"{a.ToString()}/999";
+                            label2.Text = text.ToString();
+                            label2.Refresh();
+                            richTextBox1.AppendText(String.Format("{0}{1}", $"{a:000}", Environment.NewLine));
+                            progressBar1.Maximum = 999;
+                            progressBar1.Value = i;
+                            Thread.Sleep(100);
+                        }
+                        
+
+                        break;
+                    }
+                case 4:
+                    {
+                        for (int i = 0; i < 10000; i++)
+                        {
+                            int a = 0 + i;
+                            string text = $"{a.ToString()}/9999";
+                            label2.Text = text.ToString();
+                            label2.Refresh();
+                            progressBar1.Maximum = 10000;
+                            progressBar1.Value = i;
+                            label2.Text = $"{i}/9999";
+                            richTextBox1.AppendText(String.Format("{0}{1}", $"{a:0000}", Environment.NewLine));
+                            Thread.Sleep(100);
+                        }
+
+                        break;
+                    }
+                case 5:
+                    {
+                        for (int i = 0; i < 100000; i++)
+                        {
+                            int a = 0 + i;
+                            string text = $"{a.ToString()}/99999";
+                            label2.Text = text.ToString();
+                            label2.Refresh();
+                            progressBar1.Maximum = 100000;
+                            progressBar1.Value = i;
+                            richTextBox1.AppendText(String.Format("{0}{1}", $"{a:00000}", Environment.NewLine));
+                            Thread.Sleep(100);
+                        }
+                        
+                        break;
+                    }
+                case 6:
+                    {
+                        for (int i = 0; i < 1000000; i++)
+                        {
+                            int a = 0 + i;
+                            string text = $"{a.ToString()}/999999";
+                            label2.Text = text.ToString();
+                            label2.Refresh();
+                            progressBar1.Maximum = 1000000;
+                            progressBar1.Value = i;
+                            richTextBox1.AppendText(String.Format("{0}{1}", $"{a:000000}", Environment.NewLine));
+                            Thread.Sleep(100);
+                            
+                        }
+                        
+                        break;
+                    }
+                default:
+                    {
+                        MessageBox.Show("Zakres od 3 do 6");
+                        break;
+                    }
+                    
+            }
+            
+            
+
+        }
+       
+    }
+    
+}

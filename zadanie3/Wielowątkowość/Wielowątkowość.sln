@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wielowątkowość", "Wielowątkowość\Wielowątkowość.csproj", "{9F794324-E09E-4329-BEE2-B802C144199C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F794324-E09E-4329-BEE2-B802C144199C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F794324-E09E-4329-BEE2-B802C144199C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F794324-E09E-4329-BEE2-B802C144199C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F794324-E09E-4329-BEE2-B802C144199C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2728D3E-AAA5-4248-B04C-16E69944CDD6}
+	EndGlobalSection
+EndGlobal

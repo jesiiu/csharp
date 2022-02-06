@@ -1,0 +1,17 @@
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\bin\Debug\net6.0-windows\Wielowątkowość.exe
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\bin\Debug\net6.0-windows\Wielowątkowość.deps.json
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\bin\Debug\net6.0-windows\Wielowątkowość.runtimeconfig.json
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\bin\Debug\net6.0-windows\Wielowątkowość.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\bin\Debug\net6.0-windows\ref\Wielowątkowość.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\bin\Debug\net6.0-windows\Wielowątkowość.pdb
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.csproj.AssemblyReference.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.Form1.resources
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.csproj.GenerateResource.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.AssemblyInfoInputs.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.AssemblyInfo.cs
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.csproj.CoreCompileInputs.cache
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\ref\Wielowątkowość.dll
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.pdb
+C:\Users\Jesiiu\Desktop\praca\zadanie1\zadanie3\Wielowątkowość\Wielowątkowość\obj\Debug\net6.0-windows\Wielowątkowość.genruntimeconfig.cache
