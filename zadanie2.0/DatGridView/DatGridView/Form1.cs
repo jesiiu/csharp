@@ -15,10 +15,11 @@ namespace DatGridView
             this.dataGridView1.CellClick += new DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             CheckForIllegalCrossThreadCalls = false;
+            //Uruchomienie wƒÖtku do sumowania warto≈õci na bierzƒÖco 
             backgroundWorker1.RunWorkerAsync();
 
         }
-
+        //funkcja sumowania dla backgroundworkera
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             while (backgroundWorker1.CancellationPending == false)
@@ -30,12 +31,12 @@ namespace DatGridView
             }
         }
 
-        //Dodawanie wartoúci do tabeli
+        //Dodawanie warto≈ìci do tabeli
         private void button_add_Values(object sender, EventArgs e)
         {
             if (textBox1.Text == String.Empty || textBox2.Text == String.Empty || textBox3.Text == String.Empty || textBox4.Text == String.Empty)
             {
-                MessageBox.Show("Puste pola! Wprowadü dane");
+                MessageBox.Show("Puste pola! Wprowad≈∏ dane");
             }
             else
             {
@@ -45,7 +46,7 @@ namespace DatGridView
                 int value2 = int.Parse(textBox2.Text);
                 int value3 = int.Parse(textBox3.Text);
                 int value4 = int.Parse(textBox4.Text);
-                //Sprawdzenie czy wprowadzana wartoúÊ mieúci siÍ w zakresie 
+                //Sprawdzenie czy wprowadzana warto≈ì√¶ mie≈ìci si√™ w zakresie 
                 if (value1 < min || value2 < min || value3 < min || value4 < min || value1 > max || value2 > max || value3 > max || value4 > max)
                 {
                     MessageBox.Show("Twoja liczba jest poza zakresem 0 a 1000");
@@ -139,7 +140,7 @@ namespace DatGridView
         }
 
 
-        //Pobieranie wartoúci z tabeli do edycji
+        //Pobieranie warto≈ìci z tabeli do edycji
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             index = e.RowIndex;
@@ -151,11 +152,11 @@ namespace DatGridView
         }
 
 
-        //Edytowanie wybranych wartoúci
+        //Edytowanie wybranych warto≈ìci
         private void button_editValues(object sender, EventArgs e)
         {
 
-            //Sprawdzenie czy zosta≥y pobrane wartoúci do edytowania
+            //Sprawdzenie czy zosta¬≥y pobrane warto≈ìci do edytowania
             if (textBox1.Text == String.Empty || textBox2.Text == String.Empty || textBox3.Text == String.Empty || textBox4.Text == String.Empty)
             {
                 MessageBox.Show("Puste pola! Pobierz dane do edycji");
@@ -173,7 +174,7 @@ namespace DatGridView
                 int value3 = int.Parse(textBox3.Text);
                 int value4 = int.Parse(textBox4.Text);
 
-                //Sprawdzenie czy wprowadzone wartoúci do edycji mieszczπ siÍ w zakresie
+                //Sprawdzenie czy wprowadzone warto≈ìci do edycji mieszcz¬π si√™ w zakresie
                 if (value1 < 0 || value1 > 1000)
                 {
                     MessageBox.Show("Twoja liczba jest poza zakresem 0 a 1000");
