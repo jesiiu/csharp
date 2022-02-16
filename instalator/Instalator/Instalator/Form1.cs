@@ -1,10 +1,4 @@
-using System.Net;
-using System.Runtime;
-using System;
 using System.Diagnostics;
-using System.ComponentModel;
-
-
 
 namespace Instalator
 {
@@ -13,38 +7,67 @@ namespace Instalator
         public Form1()
         {
             InitializeComponent();
+            button1.Enabled = false;
+            chrome.CheckedChanged += new EventHandler(buttonlock);
+            mozilla.CheckedChanged += new EventHandler(buttonlock);
+            opera.CheckedChanged += new EventHandler(buttonlock);
+            
         }
-
-        //Programy do sprawdzania komputera
-        public void system_infos()
+        //Block Install buton when any option is not check
+        private void buttonlock(object sender, EventArgs e)
         {
-            /*
-            //Linki do pobrania programów
-            cpuzurl = "https://download.cpuid.com/cpu-z/cpu-z_1.99-en.exe";
-            hwmonitorurl = "https://download.cpuid.com/hwmonitor/hwmonitor_1.45.exe";
-            powermaxurl = "https://download.cpuid.com/powermax/powermax_1.00_setup.exe";
-            */
-
-            //Pêtla foreach przeszukuj¹ca groupBox. Ma za zadanie znalezienie zaznaczonych checkboxów
-            foreach (Control c in systeminfo.Controls)
+            var checkedRadio = this.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked) != null ?
+                button1.Enabled = true : button1.Enabled = false;
+        }
+        public void instal_init_checkbox(dynamic name)
+        {
+            foreach (Control c in name.Controls)
             {
-                //Funkcja if wywo³uj¹ca otwarcie procesu dla zaznaczonych checkboxów 
+                //Function if/ Check if checkbox is checked
                 if (((CheckBox)c).Checked == true)
                 {
-                    //Zdefiniowanie nowego procesu
+                    //Define new process
                     Process myProcess = new Process();
 
                     try
                     {
-                        //Próba otwarcia nowego procesu z linkiem URL do strony 
+                        //Try to open new process with URL adress 
                         myProcess.StartInfo.UseShellExecute = true;
                         myProcess.StartInfo.FileName = c.Tag.ToString();
                         myProcess.Start();
                     }
                     catch
                     {
-                        //Je¿eli siê nie powiedzie wyskakuje okno z b³êdem
-                        MessageBox.Show("Wyst¹pi³ b³¹d");
+                        //If process can't start program show messagebox with erorr
+                        MessageBox.Show("Can't start download! Try again");
+                    }
+
+                }
+
+            }
+            
+        }
+        public void instal_init_radiobutton(dynamic name)
+        {
+            foreach (Control c in name.Controls)
+            {
+                //Function if/ Check if radiobutton is checked
+                if (((RadioButton)c).Checked == true)
+                {
+                    //Define new process
+                    Process myProcess = new Process();
+
+                    try
+                    {
+                        //Try to open new process with URL adress 
+                        myProcess.StartInfo.UseShellExecute = true;
+                        myProcess.StartInfo.FileName = c.Tag.ToString();
+                        myProcess.Start();
+                    }
+                    catch
+                    {
+                        //If process can't start program show messagebox with erorr
+                        MessageBox.Show("Can't start download! Try again");
                     }
 
                 }
@@ -52,163 +75,55 @@ namespace Instalator
             }
         }
 
-        //Programy powi¹zane z grami
+        //Programs to show system info
+        public void system_infos()
+        {     
+            instal_init_checkbox(systeminfo);
+        }
+        
+        //Programs for games
         public void games_checked()
         {
-            /*
-            discordurl = "https://discord.com/api/download?platform=win";
-            steamurl = "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe";
-            originurl = "https://www.origin.com/pol/pl-pl/store/download";
-            gogurl = "https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe";
-            uconnecturl = "https://ubi.li/4vxt9";
-            epicurl = "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi";
-            */
-
-            foreach (Control c in gamesapps.Controls)
-            {
-
-                if (((CheckBox)c).Checked == true)
-                {
-                    Process myProcess = new Process();
-
-                    try
-                    {
-                        myProcess.StartInfo.UseShellExecute = true;
-                        myProcess.StartInfo.FileName = c.Tag.ToString();
-                        myProcess.Start();
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Wyst¹pi³ b³¹d");
-                    }
-
-                }
-
-            }
+            instal_init_checkbox(gamesapps);
         }
 
-        //Podstawowe aplikacje 
+        //Basic apps for new system
         public void applications()
         {
-            /*
-            ccleanerurl = "https://www.ccleaner.com/ccleaner/download/standard";
-            javaurl = "https://www.java.com/pl/download/";
-            teamsurl = "https://www.microsoft.com/pl-pl/microsoft-teams/download-app#desktopAppDownloadregion";
-            netflixurl = "https://www.microsoft.com/en-us/p/netflix/9wzdncrfj3tj?cid=msft_web_appsforwindowsphone_collection#activetab=pivot:overviewtab";
-            spotifyurl = "https://www.spotify.com/pl/download/windows/";
-            winrarurl = "https://www.rarlab.com/rar/winrar-x64-601pl.exe";
-            zipurl = "https://www.7-zip.org/a/7z2107-x64.exe";
-            teamviewerurl = "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe";
-            notepadppurl = "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2.1/npp.8.2.1.Installer.x64.exe";
-            */
-
-            foreach (Control c in apps.Controls)
-            {
-
-                if (((CheckBox)c).Checked == true)
-                {
-                    Process myProcess = new Process();
-
-                    try
-                    {
-                        myProcess.StartInfo.UseShellExecute = true;
-                        myProcess.StartInfo.FileName = c.Tag.ToString();
-                        myProcess.Start();
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Wyst¹pi³ b³¹d");
-                    }
-
-                }
-               
-            }
-
-
-        } 
-
-            //Sterowniki karty graficznej
-            public void gpu_drivers()
-            {
-            /*
-                amd = "https://www.amd.com/en/support";
-                nvidia = "https://pl.download.nvidia.com/GFE/GFEClient/3.25.0.84/GeForce_Experience_v3.25.0.84.exe";
-            */
-
-            foreach (Control c in gpudrivers.Controls)
-            {
-
-                if (((RadioButton)c).Checked == true)
-                {
-                    Process myProcess = new Process();
-
-                    try
-                    {
-                        myProcess.StartInfo.UseShellExecute = true;
-                        myProcess.StartInfo.FileName = c.Tag.ToString();
-                        myProcess.Start();
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Wyst¹pi³ b³¹d");
-                    }
-
-                }
-
-            }
+            instal_init_checkbox(apps);
         }
 
-        //Podstawowe przegl¹darki internetowe
+        //Drivers for GPU
+        public void gpu_drivers()
+        {
+           instal_init_radiobutton(gpudrivers);
+        }
+
+        //Browsers
         public void browsersapps()
         {
-            /*
-                string chrome = "https://www.google.com/chrome/?brand=BNSD&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-z7gOWHGVcdH_lIfyf59qQuck19r5b4mDJ5xhlDesgmWPNhvfSyMtAaAmhUEALw_wcB&gclsrc=aw.ds";
-                string mozilla = "https://download.mozilla.org/?product=firefox-msi-latest-ssl&amp;os=win64&amp;lang=pl";
-                string opera = "https://www.opera.com/pl/computer/thanks?ni=eapgx&os=windows";
-            */
+            instal_init_radiobutton(browsers);
 
-            foreach (Control c in browsers.Controls)
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Call of all defined methods
+            
+            system_infos();
+            games_checked();
+            applications();
+            gpu_drivers();
+            browsersapps();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //"Exit" button to exit program
+            if (MessageBox.Show("Are you sure to exit ?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-
-                if (((RadioButton)c).Checked == true)
-                {
-                    Process myProcess = new Process();
-
-                    try
-                    {
-                        myProcess.StartInfo.UseShellExecute = true;
-                        myProcess.StartInfo.FileName = c.Tag.ToString();
-                        myProcess.Start();
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Wyst¹pi³ b³¹d");
-                    }
-
-                }
-
+                Application.Exit();
             }
-
-    }   
-
-            private void button1_Click(object sender, EventArgs e)
-            {
-
-                //Wywo³anie wszyskich funkcji po wciœniêciu przycisku "Install"
-                browsersapps();
-                gpu_drivers();
-                applications();
-                games_checked();
-                system_infos();
-            }
-
-            private void button2_Click(object sender, EventArgs e)
-            {
-                //Przycisk "Exit" odpowiada za zakoñczenie programu
-                if (MessageBox.Show("Are you sure to exit ?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
-                {
-                    Application.Exit();
-                }
-            }
+        }
     }
 }
