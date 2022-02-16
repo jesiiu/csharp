@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesiiu\\Desktop\\instalator\\Instalator\\Instalator\\Instalator.csproj",
+      "projectUniqueName": "D:\\GitHub\\instalator\\Instalator\\Instalator\\Instalator.csproj",
       "projectName": "Instalator",
-      "projectPath": "C:\\Users\\Jesiiu\\Desktop\\instalator\\Instalator\\Instalator\\Instalator.csproj",
+      "projectPath": "D:\\GitHub\\instalator\\Instalator\\Instalator\\Instalator.csproj",
       "packagesPath": "C:\\Users\\Jesiiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesiiu\\Desktop\\instalator\\Instalator\\Instalator\\obj\\",
+      "outputPath": "D:\\GitHub\\instalator\\Instalator\\Instalator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jesiiu\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,18 +7,9 @@ namespace Instalator
         public Form1()
         {
             InitializeComponent();
-            button1.Enabled = false;
-            chrome.CheckedChanged += new EventHandler(buttonlock);
-            mozilla.CheckedChanged += new EventHandler(buttonlock);
-            opera.CheckedChanged += new EventHandler(buttonlock);
-            
         }
-        //Block Install buton when any option is not check
-        private void buttonlock(object sender, EventArgs e)
-        {
-            var checkedRadio = this.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked) != null ?
-                button1.Enabled = true : button1.Enabled = false;
-        }
+       
+        
         public void instal_init_checkbox(dynamic name)
         {
             foreach (Control c in name.Controls)
