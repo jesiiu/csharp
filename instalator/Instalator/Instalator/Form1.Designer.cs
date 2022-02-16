@@ -118,12 +118,10 @@
             // chrome
             // 
             this.chrome.AutoSize = true;
-            this.chrome.Checked = true;
             this.chrome.Location = new System.Drawing.Point(6, 22);
             this.chrome.Name = "chrome";
             this.chrome.Size = new System.Drawing.Size(109, 19);
             this.chrome.TabIndex = 2;
-            this.chrome.TabStop = true;
             this.chrome.Tag = "https://www.google.com/chrome/?brand=BNSD&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-z7gOWHG" +
     "VcdH_lIfyf59qQuck19r5b4mDJ5xhlDesgmWPNhvfSyMtAaAmhUEALw_wcB&gclsrc=aw.ds";
             this.chrome.Text = "Google Chrome";
@@ -165,12 +163,10 @@
             // amd
             // 
             this.amd.AutoSize = true;
-            this.amd.Checked = true;
             this.amd.Location = new System.Drawing.Point(4, 22);
             this.amd.Name = "amd";
             this.amd.Size = new System.Drawing.Size(52, 19);
             this.amd.TabIndex = 5;
-            this.amd.TabStop = true;
             this.amd.Tag = "https://www.amd.com/en/support";
             this.amd.Text = "AMD";
             this.amd.UseVisualStyleBackColor = true;
