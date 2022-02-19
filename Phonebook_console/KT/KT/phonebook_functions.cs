@@ -6,90 +6,49 @@ using System.Threading.Tasks;
 
 namespace KT
 {
-    internal class phonebook_functions : Phonebook
+    internal class phonebook_functions
     {
-
-        public void add_contact(Dictionary<string, int> phonebook)
+        public static List<Phonebook_props> phonebook { get; set; } = new List<Phonebook_props>();
+        
+        public void add_contact(Phonebook_props new_contact)
         {
-            Console.Clear();
-            phonebook_functions contact = new phonebook_functions();
-            Console.Write("Insert name:");
-            string name = Console.ReadLine();
-            contact.contact_name = name;
-            Console.Write("Insert number:");
-            string user_input = Console.ReadLine();
-            int number;
-            if(int.TryParse(user_input, out number))
+            phonebook.Add(new_contact);
+        }
+        private void Contact_Details(Phonebook_props contact)
+        {
+            Console.WriteLine($"Contact name: {contact.contact_name}, contact number: {contact.contact_number}");
+        }
+        private void DisplayContacts(List<Phonebook_props> contacts)
+        {
+            foreach (var contact in contacts)
             {
-                contact.contact_number = number;
-                phonebook.Add(contact.contact_name, contact.contact_number);
-                Console.Clear();
+                Contact_Details(contact);
+            }
+        }
+        public void select_by_number(int number)
+        {
+            var contact = phonebook.FirstOrDefault(c => (c.contact_number == number));
+            if(contact == null)
+            {
+                Console.WriteLine("Contact not found!");
             }
             else
             {
-                Console.WriteLine("Your number is invalid!");
+                Contact_Details(contact);
             }
-            
-
         }
 
-        public void select_by_number(Dictionary<string, int> phonebook)
+        public void select_all()
         {
-            Console.Clear();
-            Console.WriteLine("Insert phone number:");
-            string user_input = Console.ReadLine();
-            int number;
-            if (int.TryParse(user_input, out number))
-            {
-                foreach (KeyValuePair<string, int> item in phonebook)
-                {
-                    var itemvalue = item.Value;
-
-                    if (itemvalue == number)
-                    {
-                        Console.WriteLine($"{item.Key} , {item.Value}");
-                        Console.WriteLine("Press any button...");
-                        Console.ReadKey();
-                        Console.Clear();
-                    }
-
-                }
-            }
-            else
-            { 
-                Console.WriteLine("Invalid phone number!"); 
-            }
-            
-        }
-
-        public void select_all(Dictionary<string, int> phonebook)
-        {
-            
-            foreach (KeyValuePair<string, int> item in phonebook)
-            {
-                var itemkey = item.Key;
-                var itemvalue = item.Value;
-                Console.WriteLine($"{itemkey} {itemvalue}");
-            }
-            
+            DisplayContacts(phonebook);
         }
 
 
-        public void select_by_name(Dictionary<string, int> phonebook)
+        public void select_by_name(string search)
         {
-            
-            Console.WriteLine("Insert contact name:");
-            string user_name = Console.ReadLine();
+            var contact_by_name = phonebook.Where(c => c.contact_name.Contains(search)).ToList();
+            DisplayContacts(contact_by_name);
 
-            foreach (KeyValuePair<string, int> item in phonebook)
-            {
-                var itemkey = item.Key;
-
-                if (itemkey == user_name)
-                {
-                    Console.WriteLine($"{item.Key} , {item.Value}");
-                }
-            }
         }
 
 
