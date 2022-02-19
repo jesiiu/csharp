@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KT
 {
-    internal class Phonebook
+    abstract class Phonebook
     {
         public string contact_name;
         public int contact_number;

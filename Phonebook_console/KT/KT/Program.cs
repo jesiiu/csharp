@@ -8,14 +8,13 @@ int user_choise = 0;
 while (user_choise != 5)
 {
     
-    Console.WriteLine("Wybierz opcje:");
-    Console.WriteLine("1: Dodaj kontakt");
-    Console.WriteLine("2: Wyświetl kontakt na podstawie numeru telefonu");
-    Console.WriteLine("3: Wyświetl wszystkie kontakty");
-    Console.WriteLine("4: Wyszukaj kontakt po nazwie");
-    Console.WriteLine("5: Wyjdz");
+    Console.WriteLine("Choose option:");
+    Console.WriteLine("1: Add new contact");
+    Console.WriteLine("2: Show phone numbers by name of contact");
+    Console.WriteLine("3: Show all contacts");
+    Console.WriteLine("4: Search contact by phone number");
+    Console.WriteLine("5: Exit");
     string user_input = Console.ReadLine();
-
     if (int.TryParse(user_input, out user_choise))
     {
         switch (user_choise)
@@ -49,7 +48,7 @@ while (user_choise != 5)
                 }
             default:
                 {
-                    Console.WriteLine("Nie ma takiej opcji!");
+                    Console.WriteLine("Choose valid option!");
                     break;
                 }
 
@@ -57,7 +56,7 @@ while (user_choise != 5)
     }
     else
     {
-        Console.WriteLine("Wybierz opcje od 1 do 5");
+        Console.WriteLine("Choose option from 1 to 5!");
     }
 }
 
