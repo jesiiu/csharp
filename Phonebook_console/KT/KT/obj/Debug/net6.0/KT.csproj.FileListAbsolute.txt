@@ -13,3 +13,18 @@ D:\VS\kurs\zadanie 3\KT\KT\obj\Debug\net6.0\KT.dll
 D:\VS\kurs\zadanie 3\KT\KT\obj\Debug\net6.0\ref\KT.dll
 D:\VS\kurs\zadanie 3\KT\KT\obj\Debug\net6.0\KT.pdb
 D:\VS\kurs\zadanie 3\KT\KT\obj\Debug\net6.0\KT.genruntimeconfig.cache
+D:\GitHub\Phonebook_console\KT\KT\bin\Debug\net6.0\KT.exe
+D:\GitHub\Phonebook_console\KT\KT\bin\Debug\net6.0\KT.deps.json
+D:\GitHub\Phonebook_console\KT\KT\bin\Debug\net6.0\KT.runtimeconfig.json
+D:\GitHub\Phonebook_console\KT\KT\bin\Debug\net6.0\KT.dll
+D:\GitHub\Phonebook_console\KT\KT\bin\Debug\net6.0\ref\KT.dll
+D:\GitHub\Phonebook_console\KT\KT\bin\Debug\net6.0\KT.pdb
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.csproj.AssemblyReference.cache
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.AssemblyInfoInputs.cache
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.AssemblyInfo.cs
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.csproj.CoreCompileInputs.cache
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.dll
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\ref\KT.dll
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.pdb
+D:\GitHub\Phonebook_console\KT\KT\obj\Debug\net6.0\KT.genruntimeconfig.cache
