@@ -1,16 +1,5 @@
-using System.Data;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using ExcelDataReader;
+using System.Data;
 
 namespace Phonebook
 {
@@ -26,49 +15,47 @@ namespace Phonebook
             this.dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.ReadOnly = true;
         }
+        //Create new DataTable
         DataTable table = new DataTable();
-        
-
 
         private void Form1_load(object sender, EventArgs e)
         {
+            //Load sample of data
             table = new DataTable();
             table.Columns.Add("ID", typeof(int));
-            table.Columns.Add("First name", typeof(string));
-            table.Columns.Add("Last name", typeof(string));
+            table.Columns.Add("FirstName", typeof(string));
+            table.Columns.Add("LastName", typeof(string));
             table.Columns.Add("Number", typeof(string));
-
-            table.Rows.Add(1,"Kacper", "Kacper", "123456789");
-            table.Rows.Add(2,"Eryk","Eryk", "111222333");
-
+            table.Rows.Add(1, "Kacper", "Kacper", "123456789");
+            table.Rows.Add(2, "Eryk", "Eryk", "111222333");
             dataGridView1.DataSource = table;
-            
         }
 
+        //Button to add contacts do DataTable
         private void button1_Click(object sender, EventArgs e)
-        { 
+        {
+           //Get informations about contact
             string firstname = this.firstname.Text.ToString();
             string lastname = this.lastname.Text.ToString();
             string textnumber = text_number.Text.ToString();
-            
-            Int32 id= dataGridView1.Rows.Count;
+            //Set ID of contact
+            Int32 id = dataGridView1.Rows.Count;
+            //Add contact do DataTable
             table.Rows.Add(id, firstname, lastname, textnumber);
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        //Searching by first name of contact
+        private void firstname_search_TextChanged(object sender, EventArgs e)
         {
-            
-        }
-
-        private void firstaname_TextChanged(object sender, EventArgs e)
-        {
+            //Check if text box with first name is fill
+            //If is fill program filter DatTable and show us contact with our name
             if (firstname_search.Text != string.Empty)
             {
                 var firstname = firstname_search.Text.ToString();
                 DataView dv = new DataView(table);
-                dv.RowFilter = $"'{firstname}' = First name";
+                dv.RowFilter = $"'{firstname}' = FirstName";
                 dataGridView1.DataSource = dv;
             }
+            //If text box is empty program show full datatable
             else if (firstname_search.Text == string.Empty)
             {
                 dataGridView1.DataSource = table;
@@ -89,50 +76,53 @@ namespace Phonebook
                 dataGridView1.DataSource = table;
             }
         }
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void lastname_search_TextChanged_1(object sender, EventArgs e)
         {
-            if (lastname.Text != string.Empty)
+            if (lastname_search.Text != string.Empty)
             {
                 var lastname = lastname_search.Text.ToString();
                 DataView dv = new DataView(table);
-                dv.RowFilter = $"'{lastname}' = Last name";
+                dv.RowFilter = $"'{lastname}' = LastName";
                 dataGridView1.DataSource = dv;
             }
-            else if (lastname.Text == string.Empty)
+            else if (lastname_search.Text == string.Empty)
             {
                 dataGridView1.DataSource = table;
             }
         }
-
+        //Get informations about contact to textbox 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             index = e.RowIndex;
             DataGridViewRow selectedRow = dataGridView1.Rows[index];
-            edit_name.Text = selectedRow.Cells[1].Value.ToString();
-            edit_number.Text = selectedRow.Cells[2].Value.ToString();
-
+            edit_firstname.Text = selectedRow.Cells[1].Value.ToString();
+            edit_lastname.Text = selectedRow.Cells[2].Value.ToString();
+            edit_number.Text = selectedRow.Cells[3].Value.ToString();
         }
+        //Edit informations about contact
         private void button4_Click(object sender, EventArgs e)
         {
-            
             DataGridViewRow update_value = dataGridView1.Rows[index];
-            update_value.Cells[1].Value = edit_name.Text;
-            update_value.Cells[2].Value = edit_number.Text;
+            update_value.Cells[1].Value = edit_firstname.Text;
+            update_value.Cells[2].Value = edit_lastname.Text;
+            update_value.Cells[3].Value = edit_number.Text;
         }
 
+        //Exit button
         private void button2_Click_1(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.ExitThread();
         }
 
+        //Import Excel file to our DatTable
         private void button3_Click(object sender, EventArgs e)
         {
             OpenFileDialog file = new OpenFileDialog();
             file.ShowDialog();
             string path = file.FileName.ToString();
             excel_reader(path);
-           
         }
+        //Method to import file
         private void excel_reader(string path)
         {
             System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
@@ -146,6 +136,5 @@ namespace Phonebook
             }
         }
 
-        
     }
 }

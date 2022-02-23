@@ -40,18 +40,17 @@
             this.search_by_number = new System.Windows.Forms.Label();
             this.user_number = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.edit_name = new System.Windows.Forms.TextBox();
+            this.edit_firstname = new System.Windows.Forms.TextBox();
             this.edit_number = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lastname = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.edit_lastname = new System.Windows.Forms.TextBox();
             this.lastname_search = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -59,7 +58,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(404, 74);
+            this.button1.Location = new System.Drawing.Point(424, 74);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -69,7 +68,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(426, 331);
+            this.button4.Location = new System.Drawing.Point(430, 355);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
@@ -79,14 +78,14 @@
             // 
             // firstname
             // 
-            this.firstname.Location = new System.Drawing.Point(12, 74);
+            this.firstname.Location = new System.Drawing.Point(32, 74);
             this.firstname.Name = "firstname";
             this.firstname.Size = new System.Drawing.Size(98, 23);
             this.firstname.TabIndex = 5;
             // 
             // text_number
             // 
-            this.text_number.Location = new System.Drawing.Point(270, 75);
+            this.text_number.Location = new System.Drawing.Point(290, 75);
             this.text_number.Name = "text_number";
             this.text_number.Size = new System.Drawing.Size(98, 23);
             this.text_number.TabIndex = 6;
@@ -94,7 +93,7 @@
             // first_name
             // 
             this.first_name.AutoSize = true;
-            this.first_name.Location = new System.Drawing.Point(22, 44);
+            this.first_name.Location = new System.Drawing.Point(42, 44);
             this.first_name.Name = "first_name";
             this.first_name.Size = new System.Drawing.Size(65, 15);
             this.first_name.TabIndex = 7;
@@ -103,7 +102,7 @@
             // number
             // 
             this.number.AutoSize = true;
-            this.number.Location = new System.Drawing.Point(284, 44);
+            this.number.Location = new System.Drawing.Point(304, 44);
             this.number.Name = "number";
             this.number.Size = new System.Drawing.Size(54, 15);
             this.number.TabIndex = 8;
@@ -111,16 +110,16 @@
             // 
             // firstname_search
             // 
-            this.firstname_search.Location = new System.Drawing.Point(12, 158);
+            this.firstname_search.Location = new System.Drawing.Point(38, 199);
             this.firstname_search.Name = "firstname_search";
             this.firstname_search.Size = new System.Drawing.Size(98, 23);
             this.firstname_search.TabIndex = 9;
-            this.firstname_search.TextChanged += new System.EventHandler(this.name_search_TextChanged);
+            this.firstname_search.TextChanged += new System.EventHandler(this.firstname_search_TextChanged);
             // 
             // add_contact
             // 
             this.add_contact.AutoSize = true;
-            this.add_contact.Location = new System.Drawing.Point(156, 12);
+            this.add_contact.Location = new System.Drawing.Point(187, 12);
             this.add_contact.Name = "add_contact";
             this.add_contact.Size = new System.Drawing.Size(75, 15);
             this.add_contact.TabIndex = 10;
@@ -129,7 +128,7 @@
             // search_by_name
             // 
             this.search_by_name.AutoSize = true;
-            this.search_by_name.Location = new System.Drawing.Point(16, 127);
+            this.search_by_name.Location = new System.Drawing.Point(42, 168);
             this.search_by_name.Name = "search_by_name";
             this.search_by_name.Size = new System.Drawing.Size(94, 15);
             this.search_by_name.TabIndex = 11;
@@ -138,7 +137,7 @@
             // search_by_number
             // 
             this.search_by_number.AutoSize = true;
-            this.search_by_number.Location = new System.Drawing.Point(278, 127);
+            this.search_by_number.Location = new System.Drawing.Point(304, 168);
             this.search_by_number.Name = "search_by_number";
             this.search_by_number.Size = new System.Drawing.Size(106, 15);
             this.search_by_number.TabIndex = 12;
@@ -146,7 +145,7 @@
             // 
             // user_number
             // 
-            this.user_number.Location = new System.Drawing.Point(278, 157);
+            this.user_number.Location = new System.Drawing.Point(304, 198);
             this.user_number.Name = "user_number";
             this.user_number.Size = new System.Drawing.Size(100, 23);
             this.user_number.TabIndex = 13;
@@ -163,16 +162,16 @@
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // edit_name
+            // edit_firstname
             // 
-            this.edit_name.Location = new System.Drawing.Point(22, 332);
-            this.edit_name.Name = "edit_name";
-            this.edit_name.Size = new System.Drawing.Size(100, 23);
-            this.edit_name.TabIndex = 15;
+            this.edit_firstname.Location = new System.Drawing.Point(26, 356);
+            this.edit_firstname.Name = "edit_firstname";
+            this.edit_firstname.Size = new System.Drawing.Size(100, 23);
+            this.edit_firstname.TabIndex = 15;
             // 
             // edit_number
             // 
-            this.edit_number.Location = new System.Drawing.Point(284, 332);
+            this.edit_number.Location = new System.Drawing.Point(288, 356);
             this.edit_number.Name = "edit_number";
             this.edit_number.Size = new System.Drawing.Size(100, 23);
             this.edit_number.TabIndex = 16;
@@ -180,7 +179,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(171, 279);
+            this.label1.Location = new System.Drawing.Point(189, 292);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 15);
             this.label1.TabIndex = 17;
@@ -189,7 +188,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 303);
+            this.label2.Location = new System.Drawing.Point(46, 327);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 15);
             this.label2.TabIndex = 18;
@@ -198,7 +197,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(300, 303);
+            this.label3.Location = new System.Drawing.Point(304, 327);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 15);
             this.label3.TabIndex = 19;
@@ -216,7 +215,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 421);
+            this.button3.Location = new System.Drawing.Point(169, 450);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 21;
@@ -224,18 +223,9 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(127, 421);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 23);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "Export to CSV";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(149, 76);
+            this.textBox1.Location = new System.Drawing.Point(169, 76);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 23;
@@ -243,7 +233,7 @@
             // lastname
             // 
             this.lastname.AutoSize = true;
-            this.lastname.Location = new System.Drawing.Point(167, 44);
+            this.lastname.Location = new System.Drawing.Point(187, 44);
             this.lastname.Name = "lastname";
             this.lastname.Size = new System.Drawing.Size(64, 15);
             this.lastname.TabIndex = 24;
@@ -252,31 +242,31 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(171, 303);
+            this.label5.Location = new System.Drawing.Point(175, 327);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 15);
             this.label5.TabIndex = 25;
             this.label5.Text = "Last name:";
             // 
-            // textBox2
+            // edit_lastname
             // 
-            this.textBox2.Location = new System.Drawing.Point(154, 332);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 26;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.edit_lastname.Location = new System.Drawing.Point(158, 356);
+            this.edit_lastname.Name = "edit_lastname";
+            this.edit_lastname.Size = new System.Drawing.Size(100, 23);
+            this.edit_lastname.TabIndex = 26;
             // 
             // lastname_search
             // 
-            this.lastname_search.Location = new System.Drawing.Point(144, 157);
+            this.lastname_search.Location = new System.Drawing.Point(170, 198);
             this.lastname_search.Name = "lastname_search";
             this.lastname_search.Size = new System.Drawing.Size(100, 23);
             this.lastname_search.TabIndex = 27;
+            this.lastname_search.TextChanged += new System.EventHandler(this.lastname_search_TextChanged_1);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(167, 127);
+            this.label4.Location = new System.Drawing.Point(165, 168);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 15);
             this.label4.TabIndex = 28;
@@ -289,18 +279,17 @@
             this.ClientSize = new System.Drawing.Size(1064, 548);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lastname_search);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.edit_lastname);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lastname);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.edit_number);
-            this.Controls.Add(this.edit_name);
+            this.Controls.Add(this.edit_firstname);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.user_number);
             this.Controls.Add(this.search_by_number);
@@ -321,6 +310,8 @@
 
         }
 
+       
+
         #endregion
         private Button button1;
         private Button button4;
@@ -335,17 +326,16 @@
         private TextBox user_number;
         private TextBox firstname_search;
         private DataGridView dataGridView1;
-        private TextBox edit_name;
+        private TextBox edit_firstname;
         private TextBox edit_number;
         private Label label1;
         private Label label2;
         private Label label3;
         private Button button2;
         private Button button3;
-        private Button button5;
         private Label lastname;
         private Label label5;
-        private TextBox textBox2;
+        private TextBox edit_lastname;
         private TextBox lastname_search;
         private Label label4;
     }
