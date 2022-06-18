@@ -1,0 +1,375 @@
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.exe
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.deps.json
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.runtimeconfig.json
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.pdb
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Humanizer.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.AssemblyReference.cache
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.Form1.resources
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.GenerateResource.cache
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfoInputs.cache
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfo.cs
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CoreCompileInputs.cache
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CopyComplete
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.dll
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\refint\Projekt_POS.dll
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.pdb
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.genruntimeconfig.cache
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\ref\Projekt_POS.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\VS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.Form2.resources
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.Form3.resources
+C:\VS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.Form4.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.exe
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.deps.json
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.runtimeconfig.json
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\ref\Projekt_POS.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.pdb
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.AssemblyReference.cache
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.GenerateResource.cache
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfoInputs.cache
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfo.cs
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CoreCompileInputs.cache
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CopyComplete
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\ref\Projekt_POS.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.pdb
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.genruntimeconfig.cache
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.exe
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.deps.json
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.runtimeconfig.json
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.pdb
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Humanizer.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.AssemblyReference.cache
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.AddProductView.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.CartView.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.LogInView.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.MainWindow.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SearchProductView.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SignInView.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.GenerateResource.cache
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfoInputs.cache
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfo.cs
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CoreCompileInputs.cache
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CopyComplete
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\refint\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.pdb
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.genruntimeconfig.cache
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\ref\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Practices.ServiceLocation.dll
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\bin\Debug\net6.0-windows\XAct.Core.PCL.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.exe
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.deps.json
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.runtimeconfig.json
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.pdb
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\XAct.Core.PCL.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.AssemblyReference.cache
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.AddProductView.resources
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.CartView.resources
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.LogInView.resources
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.MainWindow.resources
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SearchProductView.resources
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SignInView.resources
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.GenerateResource.cache
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfoInputs.cache
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfo.cs
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CoreCompileInputs.cache
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CopyComplete
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\refint\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.pdb
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.genruntimeconfig.cache
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\ref\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\eryk\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.DocView.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\XAct.Core.PCL.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.AddProductView.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.CartView.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.DocView.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.LogInView.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.MainWindow.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SearchProductView.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SignInView.resources
+D:\Visual Studio - Projects\Studia\Program POS\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.DocView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.exe
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.deps.json
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.runtimeconfig.json
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.pdb
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\XAct.Core.PCL.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.AssemblyReference.cache
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.AddProductView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.CartView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.DocView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.LogInView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.MainWindow.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SearchProductView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SignInView.resources
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.GenerateResource.cache
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfoInputs.cache
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfo.cs
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CoreCompileInputs.cache
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CopyComplete
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\refint\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.pdb
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.genruntimeconfig.cache
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\ref\Projekt_POS.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\bin\Debug\net6.0-windows\FluentFTP.dll
+C:\Users\SKASUS\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.UploadDB.resources
+C:\Users\Jesiiu\Desktop\Projekt_POS\bin\Debug\net6.0-windows\FluentFTP.dll
+C:\Users\Jesiiu\Desktop\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.UploadDB.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.exe
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.deps.json
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.runtimeconfig.json
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Projekt_POS.pdb
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Practices.ServiceLocation.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\FluentFTP.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Humanizer.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\XAct.Core.PCL.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.AssemblyReference.cache
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.AddProductView.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.CartView.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.DocView.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.LogInView.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.MainWindow.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SearchProductView.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.SignInView.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.UI.UploadDB.resources
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.GenerateResource.cache
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfoInputs.cache
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.AssemblyInfo.cs
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CoreCompileInputs.cache
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.csproj.CopyComplete
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\refint\Projekt_POS.dll
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.pdb
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\Projekt_POS.genruntimeconfig.cache
+D:\Visual Studio - Projects\Studia\Projekt_POS\obj\Debug\net6.0-windows\ref\Projekt_POS.dll
