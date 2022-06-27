@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    var userNameSplit = User.Identity?.Name.Split('@');
+    var userName = userNameSplit[0];
+    if (userName.Contains("."))
+        {
+            var split = userName.Split(".");
+            List<string> capitalizedWord = new();
+            foreach (var word in split)
+                capitalizedWord.Add(char.ToUpper(word[0]) + word.Substring(1));
+            userName = string.Join(' ', capitalizedWord);
+        }
+    else
+        {
+            userName = char.ToUpper(userName[0]) + userName.Substring(1);
+        }
+    <li class="nav-item">
+        <a  class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Witaj, @userName!</a>
+    </li>
+    <li class="nav-item">
+        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button  type="submit" class="nav-link btn btn-link text-light">Wyloguj</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Register">Rejestracja</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Login">Zaloguj</a>
+    </li>
+}
+</ul>

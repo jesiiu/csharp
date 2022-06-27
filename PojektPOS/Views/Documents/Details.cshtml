@@ -1,0 +1,61 @@
+﻿@model Documents
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Szczegóły dokumentów</h1>
+
+<div>
+    <h4>Dokumenty</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Typ
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+        <dt class = "col-sm-2">
+            Data dodania
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.InsertDate)
+        </dd>
+        <dt class = "col-sm-2">
+            Opis
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            Cena
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            Ilość
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TotalCount)
+        </dd>
+        <dt class = "col-sm-2">
+            Metoda płatności
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Payment)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">                   
+        <div class="form-group" style="padding-top: 5px">
+            <button type="button" class="btn btn-dark">Edytowanie</button>
+        </div></a> 
+    <a asp-action="Index">
+         <div class="form-group" style="padding-top: 5px">
+            <button type="button" class="btn btn-dark">Powrót do listy dokumentów</button>
+        </div></a> 
+    </a>
+</div>

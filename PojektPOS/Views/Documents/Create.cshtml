@@ -1,0 +1,72 @@
+﻿@model Documents
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Tworzenie dokumentu</h1>
+
+<h4>Dokument</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label">Typ</label>
+                <select asp-for="Type" class="form-select">
+                    <option selected value="Paragon">Paragon</option>
+                    <option value="Faktura">Faktura</option>
+                </select>
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InsertDate" class="control-label">Data dodania</label>
+                <input asp-for="InsertDate" class="form-control" id="dateField"/> 
+                @*max="@DateTime.Now.ToString("yyyy-MM-dd")"*@
+                <span asp-validation-for="InsertDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Opis</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalPrice" class="control-label">Cena</label>
+                <input asp-for="TotalPrice" class="form-control" />
+                <span asp-validation-for="TotalPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalCount" class="control-label">Ilość</label>
+                <input asp-for="TotalCount" class="form-control" />
+                <span asp-validation-for="TotalCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Payment" class="control-label">Metoda płatności</label>
+                <select asp-for="Payment" class="form-select">
+                    <option selected value="Gotówka">Gotówka</option>
+                    <option value="Karta płatnicza">Karta płatnicza</option>
+                    <option value="Blik">Blik</option>
+                    <option value="Przelew">Przelew</option>
+                </select>
+                <span asp-validation-for="Payment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User" class="control-label" >Użytkownik</label>
+                <input asp-for="User" class="form-control" value=@User.Identity.Name.ToString() readonly/>
+                <span asp-validation-for="User" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-top: 5px">
+                <input type="submit" value="Utwórz" class="btn btn-dark text-light" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="padding-top: 5px">
+    <a asp-action="Index">Powrót do listy dokumentów</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

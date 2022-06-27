@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Products>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Tworzenie produktu</h1>
+
+<p>
+    <a asp-action="Create">
+        <button type="button" class="btn-dark btn">Utwórz nowy</button>
+    </a>
+</p>
+<form asp-controller="Products" asp-action="Index" class="input-group">
+     <div class="input-group">
+         <input name="SearchString" class="form-control" type="text" id="searcher">
+         <span class="input-group-btn">
+             <button class="btn btn-dark d-block" type="submit">Szukaj...</button>
+         </span>
+     </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="align-middle">
+                Nazwa
+            </th>
+            <th class="align-middle">
+                Rozmiar
+            </th>
+            <th class="align-middle">
+                EAN
+            </th>   
+            <th class="align-middle">
+                Indeks
+            </th>
+            <th class="align-middle">
+                Cena
+            </th>
+            <th class="align-middle">
+                Ilość
+            </th>
+            <th class="align-middle">
+                Producent
+            </th>
+            <th class="align-middle">
+                Zdjęcie
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.EanCode)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.ProducerCode)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Count)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Manufacturer)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.PhotoUrl)
+            </td>
+            <td class="align-middle">
+                <a asp-action="Edit" asp-route-id="@item.Id" style="padding-bottom 5px">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-warning w-100">Edytuj</button>
+                    </div>
+                </a> 
+                <a asp-action="Details" asp-route-id="@item.Id" style="padding-bottom 5px">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success  w-100">Szczegóły</button>
+                    </div>
+                </a> 
+                <a asp-action="Delete" asp-route-id="@item.Id" style="padding-bottom 5px">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-danger  w-100">Usuń</button>
+                    </div>
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

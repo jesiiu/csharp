@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Documents>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Dokumenty</h1>
+<p>
+    <a asp-action="Create">
+        <button type="button" class="btn-dark btn">Utwórz nowy</button>
+    </a>
+</p>
+<form asp-controller="Documents" asp-action="Index" class="input-group">
+     <div class="input-group">
+         <input name="SearchString" class="form-control" type="text" id="searcher">
+         <span class="input-group-btn">
+             <button class="btn btn-dark d-block" type="submit">Szukaj...</button>
+         </span>
+     </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="align-middle">
+                Typ dokumentu
+            </th>
+            <th class="align-middle">
+                Data wystawienia
+            </th>
+            <th class="align-middle">
+                Opis
+            </th>
+            <th class="align-middle">
+                Cena
+            </th>
+            <th class="align-middle">
+                Ilość produktów
+            </th>
+            <th class="align-middle">
+                Metoda płatności
+            </th>
+            <th class="align-middle"> 
+                Użytkownik
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.InsertDate)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.TotalPrice)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.TotalCount)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Payment)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.User)
+            </td>
+            <td class="align-middle">
+                <a asp-action="Edit" asp-route-id="@item.Id" style="padding-bottom 5px">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-warning w-100">Edytuj</button>
+                    </div>
+                </a> 
+                <a asp-action="Details" asp-route-id="@item.Id" style="padding-bottom 5px">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success  w-100">Szczegóły</button>
+                    </div>
+                </a> 
+                <a asp-action="Delete" asp-route-id="@item.Id" style="padding-bottom 5px">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-danger  w-100">Usuń</button>
+                    </div>
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
